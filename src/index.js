@@ -4,6 +4,16 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
+var nome;
+var idade;
+var email;
+
+nome = prompt("Insira o seu nome");
+idade = prompt("Insira a sua idade");
+email = prompt("Insira o seu e-mail");
+
+alert ("Olá "+nome+" seja muito bem vindo! Sua idade é de "+idade+ " anos e seu email é "+email );
+
 ReactDOM.render(
   <React.StrictMode>
     <App />
